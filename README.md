@@ -2,6 +2,9 @@
 
 ![screenshot](docs/screenshot.gif)
 
+Images are from a RICOH THETA Z1 running firmware 1.80.1.
+
+
 ## Tutorial
 
 [video](https://youtu.be/h6LQqBAioBA)
