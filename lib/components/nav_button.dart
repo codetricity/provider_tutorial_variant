@@ -8,10 +8,12 @@ class NavButton extends StatelessWidget {
     Key? key,
     required this.imageBaseName,
     required this.caption,
+    required this.details,
   }) : super(key: key);
 
   final String imageBaseName;
   final String caption;
+  final String details;
 
   @override
   Widget build(BuildContext context) {
@@ -24,6 +26,7 @@ class NavButton extends StatelessWidget {
               onPressed: () {
                 context.read<ImageNotifier>().updateImage(
                     Image.asset('assets/images/$imageBaseName.JPG'));
+                context.read<ImageNotifier>().updateDetails(details);
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => DetailsScreen()));
               }),

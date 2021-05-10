@@ -4,6 +4,10 @@
 
 Images are from a RICOH THETA Z1 running firmware 1.80.1.
 
+Expand to provide changes for a second variable.
+
+![details screen](docs/screenshot_details.gif)
+
 
 ## Tutorial
 

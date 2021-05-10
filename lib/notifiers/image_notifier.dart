@@ -7,4 +7,11 @@ class ImageNotifier extends ChangeNotifier {
     _image = image;
     notifyListeners();
   }
+
+  String _details = '';
+  String get details => _details;
+  void updateDetails(details) {
+    _details = details;
+    notifyListeners();
+  }
 }
